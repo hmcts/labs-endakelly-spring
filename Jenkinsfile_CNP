@@ -1,6 +1,6 @@
 #!groovy
 
-@Library("Infrastructure")
+@Library("Infrastructure@DTSPO-4613/artifactory-error")
 
 def type = "java"
 def product = "labs"
