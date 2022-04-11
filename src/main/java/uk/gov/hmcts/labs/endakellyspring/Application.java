@@ -8,6 +8,16 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Application {
 
     public static void main(final String[] args) {
+
+        Logger logger
+            = Logger.getLogger(
+                Application.class.getName());
+
         SpringApplication.run(Application.class, args);
+        {
+            String str1 = """
+                Str1 text """;
+            logger.log(Level.INFO, str1);
+        }
     }
 }
