@@ -3,6 +3,9 @@ package uk.gov.hmcts.labs.endakellyspring;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 @SpringBootApplication
 @SuppressWarnings("HideUtilityClassConstructor") // Spring needs a constructor, its not a utility class
 public class Application {
